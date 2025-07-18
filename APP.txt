@@ -1,0 +1,58 @@
+1. Instadapp (支援 ETH 鏈)
+功能：一鍵式槓桿質押策略，幫你自動把 stETH 質押、借出 ETH、再質押。
+
+介面：類似銀行 app，有收益率顯示與風險指標。
+
+優點：策略自動化，不需手動管理槓桿與清算線。
+
+適合對象：希望最大化 LSD 收益，但又不想搞懂 Aave、Lido 的操作。
+
+可用瀏覽器或 MetaMask App 存取：
+https://www.instadapp.io
+
+2. Lido Mobile (透過官方 DApp 或整合錢包)
+功能：ETH 質押，獲得 stETH；部分錢包（如 Argent）支援一鍵使用 stETH。
+
+優點：官方整合，不需理解太多技術細節。
+
+使用方式：
+
+用 MetaMask、Trust Wallet 等連接 Lido
+
+或使用支援 Lido 的錢包，如 Argent（下方推薦）
+
+3. Argent Wallet（推薦給新手，支援 stETH）
+類型：智慧錢包（非託管）
+
+支援功能：一鍵質押 ETH，獲得 stETH，直接在 App 裡使用 Aave 借貸。
+
+介面設計：超簡單，像行動銀行。
+
+安全性：無需記助記詞，使用 email + 社交復原。
+
+iOS/Android 均有：
+https://www.argent.xyz
+
+4. Kaito App（針對 Solana 生態）
+功能：簡單操作 mSOL 或 JitoSOL 質押，再導入收益農場。
+
+支援資產：SOL / mSOL / JitoSOL
+
+優點：Solana 用戶的專用選擇，速度快，介面清晰。
+
+使用方式：搭配 Phantom 錢包或 Backpack 錢包。
+
+5. Coinbase App（中心化簡易版）
+功能：質押 ETH，獲得 cbETH。
+
+優點：安全、用戶介面極簡，不需理解鏈上細節。
+
+缺點：LSD 再利用空間較小（主要是單純拿利息）。
+
+✅ 推薦組合（如果你是新手）
+ETH 用戶：用 Argent 錢包 + Lido，一鍵質押＋再利用。
+
+SOL 用戶：用 Phantom 錢包 + Jito App，質押＋收益農場。
+
+怕複雜想安全：直接用 Coinbase 做質押拿 LSD，雖然收益較低，但簡單又安全。
+
