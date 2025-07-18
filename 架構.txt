@@ -1,0 +1,29 @@
+flowchart TD
+    A[觀察機 - 自動掃描LSD幣種] --> B[更新幣種資料庫]
+    B --> C[分析機 - 價格分析與訊號燈]
+    C --> D[下單機 - 根據訊號執行策略]
+
+
+
+第一步：建立「LSD 資產掃描器」觀察機
+使用 DefiLlama 的 /yields API 掃描所有 Liquid Staking 協議
+
+擷取 tokenSymbol、tokenAddress、鏈別（如 Ethereum、Solana）
+
+自動建立「支援LSD的幣種清單」
+
+第二步：掃描後自動比對 token list
+比對 Coingecko 幣種名稱 vs. LSD 幣種
+
+自動組出你的 token_list，不再寫死
+
+第三步（未來）：把 LSD 列表寫入 tokens_db.json
+讓分析機只讀這個資料庫
+
+每次重啟都會更新一次
+
+甚至可以設計「只挑年化收益率大於 3% 的 LSD 資產」
+
+
+我馬上幫你建立一個獨立的「LSD 幣種觀察機」程式，它會自動從 DefiLlama 抓取支援 Liquid Staking 的幣種，並輸出一份 JSON 或 CSV 資料庫，你的分析機就能用這個資料來動態更新幣種庫。
+
